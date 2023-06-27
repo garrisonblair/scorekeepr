@@ -1,0 +1,3 @@
+ScoreKeepr.xcodeproj/project.xcworkspace
+ScoreKeepr.xcodeproj/xcshareddata
+ScoreKeepr.xcodeproj/xcuserdata

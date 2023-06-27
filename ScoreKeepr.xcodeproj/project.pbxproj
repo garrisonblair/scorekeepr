@@ -13,6 +13,16 @@
 		F061E5A42A4A1AE400089D32 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F061E5A32A4A1AE400089D32 /* ContentView.swift */; };
 		F061E5A62A4A1AE500089D32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F061E5A52A4A1AE500089D32 /* Assets.xcassets */; };
 		F061E5AA2A4A1AE500089D32 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F061E5A92A4A1AE500089D32 /* Preview Assets.xcassets */; };
+		F061E5B42A4A25E100089D32 /* StyledNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = F061E5B32A4A25E100089D32 /* StyledNumber.swift */; };
+		F061E5B62A4A2A5E00089D32 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = F061E5B52A4A2A5E00089D32 /* Card.swift */; };
+		F061E5B92A4A373500089D32 /* Card200.swift in Sources */ = {isa = PBXBuildFile; fileRef = F061E5B82A4A373500089D32 /* Card200.swift */; };
+		F061E5BB2A4A378F00089D32 /* Card100.swift in Sources */ = {isa = PBXBuildFile; fileRef = F061E5BA2A4A378F00089D32 /* Card100.swift */; };
+		F061E5BD2A4A37CE00089D32 /* Card75.swift in Sources */ = {isa = PBXBuildFile; fileRef = F061E5BC2A4A37CE00089D32 /* Card75.swift */; };
+		F061E5BF2A4A37FE00089D32 /* Card50.swift in Sources */ = {isa = PBXBuildFile; fileRef = F061E5BE2A4A37FE00089D32 /* Card50.swift */; };
+		F061E5C12A4A382100089D32 /* Card25.swift in Sources */ = {isa = PBXBuildFile; fileRef = F061E5C02A4A382100089D32 /* Card25.swift */; };
+		F061E5C32A4ACEB000089D32 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = F061E5C22A4ACEB000089D32 /* Player.swift */; };
+		F061E5C52A4AD97F00089D32 /* CardRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F061E5C42A4AD97F00089D32 /* CardRow.swift */; };
+		F0E539B22A4AE868009FBA81 /* MilleBornes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E539B12A4AE868009FBA81 /* MilleBornes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +34,16 @@
 		F061E5A52A4A1AE500089D32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F061E5A72A4A1AE500089D32 /* ScoreKeepr.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ScoreKeepr.entitlements; sourceTree = "<group>"; };
 		F061E5A92A4A1AE500089D32 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F061E5B32A4A25E100089D32 /* StyledNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyledNumber.swift; sourceTree = "<group>"; };
+		F061E5B52A4A2A5E00089D32 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		F061E5B82A4A373500089D32 /* Card200.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card200.swift; sourceTree = "<group>"; };
+		F061E5BA2A4A378F00089D32 /* Card100.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card100.swift; sourceTree = "<group>"; };
+		F061E5BC2A4A37CE00089D32 /* Card75.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card75.swift; sourceTree = "<group>"; };
+		F061E5BE2A4A37FE00089D32 /* Card50.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card50.swift; sourceTree = "<group>"; };
+		F061E5C02A4A382100089D32 /* Card25.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card25.swift; sourceTree = "<group>"; };
+		F061E5C22A4ACEB000089D32 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		F061E5C42A4AD97F00089D32 /* CardRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardRow.swift; sourceTree = "<group>"; };
+		F0E539B12A4AE868009FBA81 /* MilleBornes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilleBornes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +76,7 @@
 		F061E59B2A4A1AE400089D32 /* ScoreKeepr */ = {
 			isa = PBXGroup;
 			children = (
+				F0E539B02A4AE82F009FBA81 /* MilleBornes */,
 				F061E59C2A4A1AE400089D32 /* ScoreKeeprApp.swift */,
 				F061E59E2A4A1AE400089D32 /* Persistence.swift */,
 				F061E5A32A4A1AE400089D32 /* ContentView.swift */,
@@ -73,6 +94,39 @@
 				F061E5A92A4A1AE500089D32 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F061E5B22A4A256300089D32 /* ComponentViews */ = {
+			isa = PBXGroup;
+			children = (
+				F061E5B72A4A36F800089D32 /* Cards */,
+				F061E5B32A4A25E100089D32 /* StyledNumber.swift */,
+				F061E5C22A4ACEB000089D32 /* Player.swift */,
+				F061E5C42A4AD97F00089D32 /* CardRow.swift */,
+			);
+			path = ComponentViews;
+			sourceTree = "<group>";
+		};
+		F061E5B72A4A36F800089D32 /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				F061E5B52A4A2A5E00089D32 /* Card.swift */,
+				F061E5B82A4A373500089D32 /* Card200.swift */,
+				F061E5BA2A4A378F00089D32 /* Card100.swift */,
+				F061E5BC2A4A37CE00089D32 /* Card75.swift */,
+				F061E5BE2A4A37FE00089D32 /* Card50.swift */,
+				F061E5C02A4A382100089D32 /* Card25.swift */,
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
+		F0E539B02A4AE82F009FBA81 /* MilleBornes */ = {
+			isa = PBXGroup;
+			children = (
+				F061E5B22A4A256300089D32 /* ComponentViews */,
+				F0E539B12A4AE868009FBA81 /* MilleBornes.swift */,
+			);
+			path = MilleBornes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,9 +200,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				F061E59D2A4A1AE400089D32 /* ScoreKeeprApp.swift in Sources */,
+				F061E5B62A4A2A5E00089D32 /* Card.swift in Sources */,
+				F061E5BD2A4A37CE00089D32 /* Card75.swift in Sources */,
+				F061E5C12A4A382100089D32 /* Card25.swift in Sources */,
+				F061E5C32A4ACEB000089D32 /* Player.swift in Sources */,
 				F061E59F2A4A1AE400089D32 /* Persistence.swift in Sources */,
+				F0E539B22A4AE868009FBA81 /* MilleBornes.swift in Sources */,
+				F061E5BB2A4A378F00089D32 /* Card100.swift in Sources */,
 				F061E5A42A4A1AE400089D32 /* ContentView.swift in Sources */,
+				F061E5C52A4AD97F00089D32 /* CardRow.swift in Sources */,
 				F061E5A22A4A1AE400089D32 /* ScoreKeepr.xcdatamodeld in Sources */,
+				F061E5B42A4A25E100089D32 /* StyledNumber.swift in Sources */,
+				F061E5BF2A4A37FE00089D32 /* Card50.swift in Sources */,
+				F061E5B92A4A373500089D32 /* Card200.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +351,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
@@ -325,7 +389,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
