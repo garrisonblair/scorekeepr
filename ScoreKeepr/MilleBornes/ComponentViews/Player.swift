@@ -8,11 +8,11 @@
 import SwiftUI
 
 struct Player: View {
-    @State(initialValue: 0) var score: Int
+    @Binding var name: String
+    @Binding var score: Int
+    
     @State(initialValue: []) var cardsPlayed: [Int]
     @State(initialValue: 0) var num200: Int
-    
-    @State(initialValue: "") var name: String
     
     var statusColor: Color {
         if (score == 1000) {
@@ -62,6 +62,8 @@ struct Player: View {
 
 struct Player_Previews: PreviewProvider {
     static var previews: some View {
-        Player()
+        @State(initialValue: "Player Name") var name: String
+        @State(initialValue: 0) var score: Int
+        Player(name: $name, score: $score)
     }
 }
