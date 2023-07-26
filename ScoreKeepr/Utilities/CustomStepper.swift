@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+// https://stackoverflow.com/questions/65781501/how-to-use-increment-decrement-functions-in-stepper-while-also-using-onchange
+
 struct CustomStepper<Label, Value>: View where Label: View, Value: Strideable {
     @Binding private var value: Value
     private let bounds: ClosedRange<Value>

@@ -40,16 +40,16 @@ struct Bottom: Shape {
     }
 }
 
-struct ColoredNumber: Identifiable {
+struct ColoredCharacter: Identifiable {
     var id = UUID()
     
-    let number: Int
+    let character: Character
     let color: Color
 }
 
 struct Card: View {
     let value: Int
-    let numbers: [ColoredNumber]
+    let characters: [ColoredCharacter]
     let height: CGFloat;
 
     
@@ -68,8 +68,8 @@ struct Card: View {
                         .fill(Color("GreenBg"))
                 )
             HStack {
-                ForEach(numbers) { item in
-                    StyledNumber(number: item.number, color: item.color,
+                ForEach(characters) { item in
+                    StyledCharacter(character: item.character, color: item.color,
                                  font: .title2)
                 }
             }
@@ -81,6 +81,6 @@ struct Card: View {
 
 struct Card_Previews: PreviewProvider {
     static var previews: some View {
-        Card(value: 200, numbers: [ColoredNumber(number: 2, color: Color("RedLetter")), ColoredNumber(number: 0, color: .black), ColoredNumber(number: 0, color: Color("BlueLetter"))], height: 100)
+        Card(value: 200, characters: [ColoredCharacter(character: "2", color: Color("RedLetter")), ColoredCharacter(character: "0", color: .black), ColoredCharacter(character: "0", color: Color("BlueLetter"))], height: 100)
     }
 }

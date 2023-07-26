@@ -11,7 +11,7 @@ struct Card75: View {
     var value = 75
     
     var body: some View {
-        Card(value: value, numbers: [ColoredNumber(number: 7, color: Color("BlueLetter")), ColoredNumber(number: 5, color: .black)], height: 100)
+        Card(value: value, characters: [ColoredCharacter(character: "7", color: Color("BlueLetter")), ColoredCharacter(character: "5", color: .black)], height: 100)
     }
 }
 
